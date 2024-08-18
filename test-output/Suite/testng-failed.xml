@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [test]">
+<suite name="Failed suite [Suite]">
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="jspabc.A4_informationcommands">
+      <class name="jspabc.A1_Alerts">
         <methods>
-          <include name="gmail"/>
-          <include name="beforeTest"/>
+          <include name="handlingalerts"/>
           <include name="afterTest"/>
+          <include name="openurl"/>
         </methods>
-      </class> <!-- jspabc.A4_informationcommands -->
+      </class> <!-- jspabc.A1_Alerts -->
     </classes>
   </test> <!-- Test(failed) -->
-</suite> <!-- Failed suite [test] -->
+</suite> <!-- Failed suite [Suite] -->

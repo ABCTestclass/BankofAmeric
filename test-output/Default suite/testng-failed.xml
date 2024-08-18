@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="jspabc.A1_Alerts">
+      <class name="jspabc.B19_XLSX">
         <methods>
-          <include name="handlingalerts"/>
+          <include name="beforeTest"/>
+          <include name="XLSX"/>
           <include name="afterTest"/>
-          <include name="openurl"/>
         </methods>
-      </class> <!-- jspabc.A1_Alerts -->
+      </class> <!-- jspabc.B19_XLSX -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
